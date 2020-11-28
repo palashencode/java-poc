@@ -24,7 +24,7 @@
 
 - `java -DzSystemProp1="STAGE" -DzSystemProp2="Vendor1"  -jar target/java-envt-mvn-1.0-SNAPSHOT.jar` - for only system properties.
 
-- `zAEnvt1="custom" zBEnvt1="custom2" java -DzSystemProp1="STAGE" -DzSystemProp2="Vendor1"  -jar target/java-envt-mvn-1.0-SNAPSHOT.jar` - combined
+- `zAEnvt1="custom" zBEnvt1="custom2" java -DzSystemProp1="STAGE" -DzSystemProp2="Vendor1"  -jar target/java-envt-mvn-1.0-SNAPSHOT.jar` - combined.
 
 - `mvn compile; mvn exec:java -Dexec.mainClass="com.java.app.App" -DzAA="Custom_Value"` - setting system properties while running from maven execution plugin.
 
